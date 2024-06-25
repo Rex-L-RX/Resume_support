@@ -3,18 +3,8 @@ import Slide from "react-awesome-reveal";
 
 function Resume(props){
 
-  const getRandomColor=()=> {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
-
   if (!props.data) return null;
 
-  const skillmessage = props.data.skillmessage; 
   const work = props.data.work.map(function (work) {
     return (
       <div key={work.company}>
@@ -30,25 +20,26 @@ function Resume(props){
               <li>{work_description}</li>
             </ul>
             )
-        })
-          
-        }
-          
-        
+          })
+        }     
       </div>
     );
   });
 
   const skills = props.data.skills.map((skills) => {
-    const backgroundColor = getRandomColor();
-    const className = "bar-expand " + skills.name.toLowerCase();
-    const width = skills.level;
-
     return (
-      <li key={skills.name}>
-        <span style={{ width, backgroundColor }} className={className}></span>
-        <em>{skills.name}</em>
-      </li>
+      <div key={skills.name}>
+        <h3>{skills.name}</h3>
+        {
+          skills.descripiton.map(function (skills_description, index){
+            return (
+            <ul key={index}>
+              <li>{skills_description}</li>
+            </ul>
+            )
+          })
+        } 
+      </div>
     );
   });
 
@@ -87,13 +78,7 @@ function Resume(props){
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
-            </div>
-          </div>
+          <div className="nine columns main-col">{skills}</div>
         </div>
       </Slide>
 
@@ -105,11 +90,7 @@ function Resume(props){
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">{education}</div>
-            </div>
-          </div>
+          <div className="nine columns main-col">{education}</div>
         </div>
       </Slide>
     </section>

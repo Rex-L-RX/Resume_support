@@ -3,7 +3,7 @@
     "name":"Rex Liu",
     "description":"Passionate about learning technology",
     "image":"profile.jpg",
-    "bio":"My name is Rex. I graduated from the University of Tasmania with a Master of Information Technology and Systems degree. Now I am looking for my first job in the programming field. ",
+    "bio":"My name is Rex. Entry-level IT Support professional. Recently completed the Google IT Support Professional Certificate - a hands-onprogram that covers troubleshooting, customer service, networking, operating system administration, and security. Currently Working as an IT Support Specialist from 01/2023 ",
     "contactmessage":"Thank you for your feedback.",
     "email": "liurunxiao233@gmail.com",
     "phone": "0466 154382",
@@ -14,7 +14,7 @@
       "line2":"City: Melbourne",
       "line3":"Country: Australia"
     },
-    "resumedownload":"./images/Rex_Liu_Resume_Dev.pdf",
+    "resumedownload":"./images/Rex_Liu_IT_Support_Resume.pdf",
     "social":[
       
       {
@@ -54,7 +54,8 @@
         "years":"Jan 2023 - Present",
         "description":[
           "Provide technical support to customers, including PC hardware and software troubleshooting.",
-          "Setup new PCs with appropriate software."]
+          "Setup new PCs with appropriate software.",
+          "Assist with general IT support tasks."]
       },
       
       {
@@ -68,21 +69,28 @@
     ],
     "skills":[
       {
-        "name":"Backend Development (PHP, C#, MySQL and Oracle SQL)",
-        "level":"60%"
+        "name":"Technical Skills",
+        "descripiton":[
+          "Operating System administration (Windows, Linux and MacOS)",
+          "Computer networking",
+          "Software management",
+          "Troubleshooting(Network, Desktop, Laptop and Smart Phone)",
+          "Resource Monitoring",
+          "Routing concepts(TCP/IP, Subnetting, DNS, DHCP)",
+          "Data management and recovery",
+          "Office 365, Azure AD, AD"
+        ]
       },
       {
-        "name":"Frontend Development React",
-        "level":"70%"
-      },
-      {
-        "name":"Communication & Management",
-        "level":"70%"
-      },
-      {
-        "name":"Passion & Eager to learn",
-        "level":"100%"
+        "name":"Soft Skills",
+        "descripiton":[
+          "Excellent communication and interpersonal skills",
+          "Strong attention to detail",
+          "Customer service",
+          "Quick learner and highly adaptable"
+        ]
       }
+      
     ]
   },
   "portfolio":{
