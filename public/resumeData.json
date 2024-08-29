@@ -3,14 +3,15 @@
     "name":"Rex Liu",
     "description":"Passionate about learning technology",
     "image":"profile.jpg",
-    "bio":"My name is Rex. Entry-level IT Support professional. Recently completed the Google IT Support Professional Certificate - a hands-onprogram that covers troubleshooting, customer service, networking, operating system administration, and security. Currently Working as an IT Support Specialist from 01/2023 ",
+    "bio_0":"My name is Rex. As an experienced Desktop Support Technician, I provide comprehensive IT consulting services to all employees, including management, within the company. I possess extensive expertise in MS Office 365 and Google Workspace, with advanced skills in SharePoint and OneDrive troubleshooting. This enables efficient collaboration and document management for executive and VIP users. ",
+    "bio_1":"I am proficient in troubleshooting a wide range of software and hardware issues. I thrive under pressure and can indpendently resolve problems or work effectively within a team. ",
     "contactmessage":"Thank you for your feedback.",
     "email": "liurunxiao233@gmail.com",
     "phone": "0466 154382",
     "github":"https://github.com/Rex-L-RX",
     "project":"https://github.com/Rex-L-RX",
     "address":{
-      "line1":"Address: 1 Helpmann St, Wantirna South",
+      "line1":"Address: Wantirna South",
       "line2":"City: Melbourne",
       "line3":"Country: Australia"
     },
@@ -34,6 +35,13 @@
     "skillmessage":"Technical Skills",
     "education":[
       {
+       "school":"Google on Coursera",
+        "degree":"Google IT Support Professional Certificate",
+        "graduated":"2024",
+        "description":"" 
+      },
+
+      {
         "school":"University of Tasmania",
         "degree":"Master of Information Technology and Systems",
         "graduated":"2019 - 2022",
@@ -49,9 +57,27 @@
     ],
     "work":[
       {
+        "company":"ProCareer Pty Ltd",
+        "title":"IT Support Specialist",
+        "years":"Aug 2024 - Present",
+        "description":[
+          "Provide technical support to customers, including PC hardware and software troubleshooting.",
+          "Setup new PCs with appropriate software.",
+          "Assist with general IT support tasks."]
+      },
+      {
+        "company":"Olympus Technology Services",
+        "title":"End User Computing Tech",
+        "years":"Jul 2024 - Present",
+        "description":[
+          "Provide technical support to customers, including PC hardware and software troubleshooting.",
+          "Setup new PCs with appropriate software.",
+          "Assist with general IT support tasks."]
+      },
+      {
         "company":"Yoo's Technology",
-        "title":"Supervisor",
-        "years":"Jan 2023 - Present",
+        "title":"IT Support Technician",
+        "years":"Jan 2023 - Jul 2024",
         "description":[
           "Provide technical support to customers, including PC hardware and software troubleshooting.",
           "Setup new PCs with appropriate software.",
@@ -73,12 +99,14 @@
         "descripiton":[
           "Operating System administration (Windows, Linux and MacOS)",
           "Computer networking",
-          "Software management",
+          "Routing concepts (TCP/IP, Subnetting, DNS, DHCP)",
           "Troubleshooting(Network, Desktop, Laptop and Smart Phone)",
-          "Resource Monitoring",
-          "Routing concepts(TCP/IP, Subnetting, DNS, DHCP)",
+          "VPNs and proxies",
           "Data management and recovery",
-          "Office 365, Azure AD, AD"
+          "Software management",
+          "Remote Support tools such as RDP, Team Viewer.",
+          "Office 365, Azure AD, AD",
+          "CRM"
         ]
       },
       {

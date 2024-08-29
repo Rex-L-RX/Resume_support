@@ -40,12 +40,6 @@ function Header(props){
                 Resume
               </a>
             </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
           </ul>
         </nav>
 

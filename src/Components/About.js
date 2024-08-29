@@ -6,7 +6,8 @@ function About(props){
 
     const name = props.data.name;
     const profilepic = '/images/' + props.data.image;
-    const bio = props.data.bio;
+    const bio_0 = props.data.bio_0;
+    const bio_1 = props.data.bio_1;
     const phone = props.data.phone;
     const email = props.data.email;
     const resumeDownload = props.data.resumedownload;
@@ -25,7 +26,8 @@ function About(props){
             <div className="nine columns main-col">
               <h2>About Me</h2>
 
-              <p>{bio}</p>
+              <p>{bio_0}</p>
+              <p>{bio_1}</p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
