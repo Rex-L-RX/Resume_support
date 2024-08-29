@@ -15,7 +15,7 @@ function Footer(props){
     });
 
     return (
-      <footer>
+      <footer id="footer">
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">

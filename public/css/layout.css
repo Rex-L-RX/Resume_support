@@ -1000,8 +1000,8 @@ footer .social-links li:first-child { margin-left: 0; }
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 42px;
+	height: 42px;
 	background-color: #525252;
 
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1012,7 +1012,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
    color: #fff;
    font-size: 21px;
-   line-height: 60px;
+   line-height: 42px;
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }

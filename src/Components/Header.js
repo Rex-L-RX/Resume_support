@@ -70,7 +70,7 @@ function Header(props){
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#portfolio">
+          <a className="smoothscroll" href="#footer">
             <i className="icon-down-circle"></i>
           </a>
         </p>
