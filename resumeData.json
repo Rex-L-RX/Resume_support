@@ -26,7 +26,7 @@
       
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/runxiao-liu-96a75a205",
+        "url":"www.linkedin.com/in/rex-liu-96a75a205",
         "className":"fa fa-linkedin-square"
       }
     ]
@@ -61,18 +61,22 @@
         "title":"IT Support Specialist",
         "years":"Aug 2024 - Present",
         "description":[
-          "Provide technical support to customers, including PC hardware and software troubleshooting.",
-          "Setup new PCs with appropriate software.",
-          "Assist with general IT support tasks."]
+          "Selected and successfully deployed a suitable CRM system based on company requirements. The CRM systems eamlessly integrated into the company’s business processes, enhancing operational efficiency and reducing therisk of customer data loss.",
+          "Developed the company’s official website to introduce business services, handle customer requests, and recordcustomer information.",
+          "Managed Google Workspace, including Google Drive, Gmail, and Google Docs.",
+          "Trained company management and new employees on workflows, CRM system usage, and Google Workspace. Updated training documentation for these users.",
+          "Served as the first point of contact for all IT and telecommunications-related issues via phone and email."]
       },
       {
         "company":"Olympus Technology Services",
         "title":"End User Computing Tech",
         "years":"Jul 2024 - Present",
         "description":[
-          "Provide technical support to customers, including PC hardware and software troubleshooting.",
-          "Setup new PCs with appropriate software.",
-          "Assist with general IT support tasks."]
+          "Installed and configured hardware components.",
+          "Provided end-user support for clients.",
+          "Maintained and deployed desktops, laptops, and peripherals.",
+          "Resolved hardware, software, and network issues.",
+          "Collaborated with the managing team of the aged care centre to efficiently complete the deployment of new IT equipment tasks"]
       },
       {
         "company":"Yoo's Technology",
